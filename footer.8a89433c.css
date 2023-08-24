@@ -1,0 +1,2 @@
+@media screen and (min-width:375px){.container{width:375px}}@media screen and (min-width:768px){.container{width:768px;padding-left:32px;padding-right:32px}.footer-contaiter{width:100%;display:flex}.footer-body{width:100%}.footer-foto{flex-flow:wrap;justify-content:space-between;gap:12px;display:flex}.footer-item{width:calc(50% - 24px)}}@media screen and (min-width:1280px){.container{width:1280px;padding-left:100px;padding-right:99px}.footer-item{width:calc(25% - 12px)}}
+/*# sourceMappingURL=footer.8a89433c.css.map */
