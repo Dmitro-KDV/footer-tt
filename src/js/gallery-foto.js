@@ -1,3 +1,6 @@
+
+export const foto_1 = '1';
+
 export const galleryFoto = [
   {
     preview: './images/oops-chef.jpg',

@@ -1,4 +1,4 @@
-import { galleryFoto } from './gallery-foto.js';
+import { galleryFoto, foto_1 } from './gallery-foto.js';
 
 const openModar = document.querySelector('.icon-hear');
 const closeModar = document.querySelector('.footer-modal-close');
@@ -8,7 +8,7 @@ const footerFoto = document.querySelector('.footer-foto');
 openModar.addEventListener('click', function(e) {
     e.preventDefault();
     footerModal.classList.add('active');
-    footerFoto.insertAdjacentHTML('beforeend', itemsMarkup);
+    footerFoto.insertAdjacentHTML('beforeend', makeGalleryItems(galleryFoto));
     // const imegEl = galleryItems.map(makegalleryItems);
     // footerFoto.append(...imegEl);
 
@@ -17,7 +17,7 @@ openModar.addEventListener('click', function(e) {
     // console.log(images)
 
 })
-const itemsMarkup = makeGalleryItems(galleryFoto);
+// const itemsMarkup = makeGalleryItems(galleryFoto);
 
 function makeGalleryItems(items) {
     return items.map(({ preview, name, position }) => {
@@ -26,7 +26,7 @@ function makeGalleryItems(items) {
             <div class="footer-foto-img">
                 <img
                     class="footer-foto-image"
-                    src="${preview}"
+                    src="./images/1.jpg"
                     alt="${position}"
                     width="360"
                 />
