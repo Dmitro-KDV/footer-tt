@@ -1,4 +1,4 @@
-import { galleryFoto, foto_1 } from './gallery-foto.js';
+import { galleryFoto } from './gallery-foto.js';
 
 const openModar = document.querySelector('.icon-hear');
 const closeModar = document.querySelector('.footer-modal-close');
@@ -26,7 +26,7 @@ function makeGalleryItems(items) {
             <div class="footer-foto-img">
                 <img
                     class="footer-foto-image"
-                    src="./images/1.jpg"
+                    src= "${preview}"
                     alt="${position}"
                     width="360"
                 />

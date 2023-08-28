@@ -1,5 +1,5 @@
 
-export const foto_1 = '1';
+export const foto_1 = './images/1.jpg';
 
 export const galleryFoto = [
   {
