@@ -1,9 +1,9 @@
 
-export const foto_1 = './images/1.jpg';
+import foto_1 from '../images/1.jpg';
 
 export const galleryFoto = [
   {
-    preview: './images/oops-chef.jpg',
+    preview: foto_1,
     name: 'Dmitro Kushnaruk',
     position: 'developer',
   },
